@@ -607,7 +607,7 @@ export class BootstrapUtils {
         return '0x' + (numberAsString.match(/\w{1,4}(?=(\w{4})*$)/g) || [numberAsString]).join("'");
     }
     public static toSimpleHex(renderedText: string): string {
-        return renderedText.split("'").join('').replace(/^(0x)/, '');
+        return renderedText.toString().split("'").join('').replace(/^(0x)/, '');
     }
 
     // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types

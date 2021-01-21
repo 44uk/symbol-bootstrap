@@ -12,6 +12,7 @@ node_modules
 symbol-bootstrap-*.tgz
 /.eslintcache
 coverage
+privateSeeds
 /ts-docs/
 /oclif.manifest.json
 /ngrok-testnet.yml
